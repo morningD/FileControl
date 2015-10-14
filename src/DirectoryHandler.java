@@ -7,6 +7,7 @@ import java.io.InputStream;
  * Created by fengzipei on 15/10/9.
  */
 public class DirectoryHandler {
+	
     private File currentDirectory;
 
     public DirectoryHandler(){
@@ -107,7 +108,7 @@ public class DirectoryHandler {
     public void zip(String directoryName){
         //fileHandler requested
     }
-
+    /*
     public static void main(String[] args) throws IOException {
         DirectoryHandler handler = new DirectoryHandler();
         //System.out.println(handler.makeDirectory("./directory/"));
@@ -116,4 +117,6 @@ public class DirectoryHandler {
         //handler.enterDirectory("./directory");
         //handler.listDirectory();
     }
+    */
 }
+
